@@ -5,16 +5,15 @@ import java.util.Scanner;
 
 public class WordCRUD implements ICRUD{
 
-    private ArrayList wordList = new ArrayList<Word>();
+    ArrayList wordList = new ArrayList<Word>();
+    Scanner sc = new Scanner(System.in);
 
     @Override
-    public int add(){
+    public Object add(){
         int addGrade;
         String addName;
         String addMeaning;
 
-        Word addWord = new Word();
-        Scanner sc = new Scanner(System.in);
 
         System.out.print("\n=> 난이도(1,2,3) & 새 단어 입력 : ");
         addGrade = sc.nextInt();
@@ -24,29 +23,29 @@ public class WordCRUD implements ICRUD{
         System.out.print("뜻 입력 : ");
         addMeaning = sc.nextLine();
 
-        addWord.setGrade(addGrade);
-        addWord.setName(addName);
-        addWord.setMeaning(addMeaning);
-
-        wordList.add(addWord);
-
-        System.out.println("새 단어가 단어장에 추가되었습니다 !!! \n");
+        return new Word(0, addGrade, addName, addMeaning);
 
 
-        return 1;
+    }
+
+    public void wordAdd(){
+
+        Word oneWord = (Word)add();
+        wordList.add(oneWord);
+        System.out.println("\n새 단어가 단어장에 추가되었습니다 !!! \n");
     }
     @Override
-    public int update(){
+    public int update(Object o){
         return 0;
     }
 
     @Override
-    public int delete(){
+    public int delete(Object o){
         return 0;
     }
 
     @Override
-    public void select(Object o){
+    public void select(int id){
 
     }
 
