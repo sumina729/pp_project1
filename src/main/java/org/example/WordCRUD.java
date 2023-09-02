@@ -34,6 +34,7 @@ public class WordCRUD implements ICRUD{
         wordList.add(oneWord);
         System.out.println("\n새 단어가 단어장에 추가되었습니다 !!! \n");
     }
+
     @Override
     public int update(Object o){
         return 0;
@@ -47,6 +48,14 @@ public class WordCRUD implements ICRUD{
     @Override
     public void select(int id){
 
+    }
+
+    public  void listAll(){
+        System.out.println("\n--------------------------------");
+        for(int i=0; i< wordList.size(); i++){
+            System.out.println( (i+1) + " " + wordList.get(i).toString());
+        }
+        System.out.println("--------------------------------");
     }
 
 }

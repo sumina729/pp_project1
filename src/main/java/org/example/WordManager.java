@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WordManager {
 
     public void start(){
-        WordCRUD wordCRU = new WordCRUD();
+        WordCRUD wordCRUD = new WordCRUD();
 
         while (true){
             int selectNum = selectMenu();
@@ -15,7 +15,7 @@ public class WordManager {
             }
             switch(selectNum) {
                 case 1:
-
+                    wordCRUD.listAll();
                     break;
 
                 case 2:
@@ -25,7 +25,7 @@ public class WordManager {
                     break;
 
                 case 4:
-                    wordCRU.wordAdd();
+                    wordCRUD.wordAdd();
                     break;
 
                 case 5:

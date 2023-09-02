@@ -47,4 +47,20 @@ public class Word {
     public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
+
+    @Override
+    public String toString() {
+        String star = "";
+        String s;
+
+        for(int i=0; i< grade; i++){
+            star+="*";
+        }
+
+        s = String.format("%-3s", star)
+                + String.format("%15s", name) + "  " + meaning;
+
+        return s;
+
+    }
 }
