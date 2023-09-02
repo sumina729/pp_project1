@@ -1,8 +1,14 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class WordManager {
-    public void selectMenu(){
-        System.out.println(
+    public int selectMenu(){
+
+        int selectNum;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print(
                 "*** 영단어 마스터 ***\n\n" +
                 "********************\n" +
                 "1. 모든 단어 보기\n" +
@@ -16,5 +22,8 @@ public class WordManager {
                 "********************\n" +
                 "=> 원하는 메뉴는? "
         );
+
+        selectNum = sc.nextInt();
+        return selectNum;
     }
 }
