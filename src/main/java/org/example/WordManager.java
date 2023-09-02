@@ -6,11 +6,11 @@ public class WordManager {
 
     public void start(){
         WordCRUD wordCRUD = new WordCRUD();
-
+        System.out.println("*** 영단어 마스터 ***\n");
         while (true){
             int selectNum = selectMenu();
             if(selectNum == 0) {
-                System.out.println("> 시스템을 종료합니다. <\n");
+                System.out.println("프로그램 종료! 다음에 만나요~");
                 break;
             }
             switch(selectNum) {
@@ -50,7 +50,6 @@ public class WordManager {
         Scanner sc = new Scanner(System.in);
 
         System.out.print(
-                "*** 영단어 마스터 ***\n\n" +
                 "********************\n" +
                 "1. 모든 단어 보기\n" +
                 "2. 수준별 단어 보기\n" +
