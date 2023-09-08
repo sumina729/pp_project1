@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6b6f9e-3e09-407f-a433-53a92c412ae1" name="Changes" comment="종료기능 추가 및 etc">
+    <list default="true" id="3e6b6f9e-3e09-407f-a433-53a92c412ae1" name="Changes" comment="수정기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
@@ -62,7 +62,7 @@
       <workItem from="1693897220965" duration="4866000" />
       <workItem from="1694054319642" duration="2000" />
       <workItem from="1694156709175" duration="2159000" />
-      <workItem from="1694159721718" duration="1721000" />
+      <workItem from="1694159721718" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="프로잭트 생성">
       <created>1693654574425</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693660610631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="수정기능 추가">
+      <created>1694170672345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694170672345</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
     <MESSAGE value="단어추가 기능 수정" />
     <MESSAGE value="모든 단어리스트 보기 기능 추가" />
     <MESSAGE value="종료기능 추가 및 etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="종료기능 추가 및 etc" />
+    <MESSAGE value="수정기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정기능 추가" />
   </component>
 </project>

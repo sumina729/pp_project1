@@ -89,7 +89,54 @@ public class WordCRUD implements ICRUD{
     }
 
     public void deleteItem(){
+        int num;
+        System.out.print("삭제 할 단어 검색 : ");
+        String keyWord = sc.next();
 
+        ArrayList<Integer> idList = listWord(keyWord);
+
+        if(idList.size()==0){
+            System.out.println("검색하신 단어가 없습니다.");
+            return;
+        }
+
+
+
+
+        while (true) {
+            System.out.print("삭제 할 번호 선택 : ");
+            num = sc.nextInt();
+
+            int c = 0;
+            for(int i=0; i<idList.size(); i++){
+                if(num == idList.get(i)) c = 1; // 선택한 번호가 있다면 1
+            }
+            if(c == 0){
+                System.out.println("없는 번호입니다 다시 선택 해주세요");
+            }
+            else{
+                break;
+            }
+        }
+
+
+        System.out.print("정말로 삭제하실래요?(Y/n) ");
+        sc.nextLine();
+        String yes = sc.nextLine();
+
+        while(true){
+            if(yes.equals("Y") || yes.equals("y")){
+                wordList.remove(num-1);
+                System.out.println("단어가 삭제되었습니다.\n");
+                break;
+            }
+            else if(yes.equals("N") || yes.equals("n")){
+                break;
+            }
+        }
+
+
+        return;
     }
 
     @Override

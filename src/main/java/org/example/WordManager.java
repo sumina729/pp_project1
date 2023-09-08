@@ -33,6 +33,7 @@ public class WordManager {
                     break;
 
                 case 6:
+                    wordCRUD.deleteItem();
                     break;
 
                 case 7:
