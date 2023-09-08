@@ -29,6 +29,7 @@ public class WordManager {
                     break;
 
                 case 5:
+                    wordCRUD.updateItem();
                     break;
 
                 case 6:

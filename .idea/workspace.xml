@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6b6f9e-3e09-407f-a433-53a92c412ae1" name="Changes" comment="모든 단어리스트 보기 기능 추가">
+    <list default="true" id="3e6b6f9e-3e09-407f-a433-53a92c412ae1" name="Changes" comment="종료기능 추가 및 etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,9 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -54,7 +58,11 @@
       <option name="presentableId" value="Default" />
       <updated>1693654436341</updated>
       <workItem from="1693654437789" duration="1269000" />
-      <workItem from="1693655770726" duration="4735000" />
+      <workItem from="1693655770726" duration="6790000" />
+      <workItem from="1693897220965" duration="4866000" />
+      <workItem from="1694054319642" duration="2000" />
+      <workItem from="1694156709175" duration="2159000" />
+      <workItem from="1694159721718" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="프로잭트 생성">
       <created>1693654574425</created>
@@ -91,11 +99,29 @@
       <option name="project" value="LOCAL" />
       <updated>1693660294561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="종료기능 추가 및 etc">
+      <created>1693660610631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693660610631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="프로잭트 생성" />
@@ -103,6 +129,7 @@
     <MESSAGE value="단어추가 기능 구현" />
     <MESSAGE value="단어추가 기능 수정" />
     <MESSAGE value="모든 단어리스트 보기 기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="모든 단어리스트 보기 기능 추가" />
+    <MESSAGE value="종료기능 추가 및 etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="종료기능 추가 및 etc" />
   </component>
 </project>
