@@ -1,0 +1,102 @@
+1|a(n)|하나의, 한사람의
+2|about|~에 관하여
+2|across|가로질러
+1|act|행동하다
+1|address|주소
+1|afraid|두려워하여,걱정하여
+3|after|후에
+2|afternoon|오후
+1|age|나이
+1|ago|전에
+3|air|공기
+3|airport|공항
+3|album|앨범
+1|all|모두
+2|along|따라서
+2|always|항상
+3|among|~사이에
+3|and|그리고
+3|angry|화난
+3|animal|동물
+3|answer|대답하다
+1|any|무슨, 조금도
+2|apartment|아파트
+2|apple|사과
+3|arm|팔
+1|around|주변에, ~경에
+2|arrive|도착하다
+3|as|~와 같이
+1|ask|묻다
+2|at|~에
+1|aunt|아주머니, 이모
+1|autumn|가을
+2|away|저리로,떨어진
+1|baby|아기
+3|baby|아기
+2|back|등, 뒤
+3|bad|나쁜
+1|bag|가방
+3|ball|공
+1|balloon|풍선
+2|banana|바나나
+1|band|무리, 결합시키다
+3|bank|은행
+3|base|기초, 토대
+1|basket|바구니
+1|bath|목욕
+3|be|이다
+2|beach|해변
+3|bear|곰
+1|beautiful|아름다운
+1|because|왜냐하면
+3|become|~이 되다
+3|bed|침대
+1|before|전에, 앞에
+1|begin|시작하다
+2|behind|~뒤에
+3|bell|종
+2|below|아래에
+1|bench|긴의자, 벤치
+3|beside|옆에
+2|between|~사이에
+2|big|큰
+1|bike|자전거
+3|bird|새
+1|birthday|생일
+2|black|검은색(의)
+2|blow|불다
+1|blue|파란색(의)
+3|board|널빤지, 마분지
+2|boat|배
+1|body|몸
+1|book|책
+1|bottle|병
+3|bowl|그릇, 사발
+3|box|상자
+1|boy|소년
+1|bread|빵
+1|break|깨뜨리다
+2|breakfast|아침식사
+1|bridge|다리
+3|bright|밝은
+1|bright|밝은
+3|bring|가져오다
+2|brother|남자형제
+1|brown|갈색
+3|brush|솔질하다
+3|build|짓다
+2|burn|타다
+2|bus|버스
+2|busy|바쁜
+1|but|그러나
+2|butter|버터
+2|button|단추
+2|buy|사다
+2|by|~옆에
+1|bye|안녕
+3|cake|케이크
+1|calendar|달력
+2|call|부르다
+1|camera|카메라, 사진기
+2|camp|야영지, 야영
+1|can|할 수 있다
