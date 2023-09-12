@@ -174,5 +174,13 @@ public class WordCRUD implements ICRUD{
         return idList;
     }
 
+    public void searchWord(){
+
+        System.out.print("단어 검색 : ");
+        String keyWord = sc.next();
+
+        ArrayList<Integer> idList = listWord(keyWord);
+    }
+
 
 }

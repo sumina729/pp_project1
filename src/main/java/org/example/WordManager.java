@@ -19,6 +19,7 @@ public class WordManager {
                     break;
 
                 case 2:
+                    wordCRUD.searchWord();
                     break;
 
                 case 3:
