@@ -6,6 +6,7 @@ public class WordManager {
 
     public void start(){
         WordCRUD wordCRUD = new WordCRUD();
+        wordCRUD.leadWord();
         System.out.println("*** 영단어 마스터 ***\n");
         while (true){
             int selectNum = selectMenu();

@@ -7,7 +7,7 @@ public class Word {
     private  String name;
     private  String meaning;
 
-    public Word(){}
+    public Word(int i, String part, String s){}
 
     public Word(int id, int grade, String name, String meaning) {
         this.id = id;
@@ -68,5 +68,10 @@ public class Word {
 
         return grade + "|" + name + "|" + meaning;
 
+    }
+
+    public static Word fromString(String line) {
+        String[] parts = line.split("\\|");
+        return new Word(0, Integer.parseInt(parts[0]), parts[1], parts[2]);
     }
 }

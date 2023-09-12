@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6b6f9e-3e09-407f-a433-53a92c412ae1" name="Changes" comment="수준별 단어 보기기능 추가">
+    <list default="true" id="3e6b6f9e-3e09-407f-a433-53a92c412ae1" name="Changes" comment="파일에 저장 기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
@@ -66,6 +66,7 @@
       <workItem from="1694159721718" duration="2694000" />
       <workItem from="1694171589616" duration="643000" />
       <workItem from="1694502919524" duration="3365000" />
+      <workItem from="1694514347595" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="프로잭트 생성">
       <created>1693654574425</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694505184829</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="파일에 저장 기능 추가">
+      <created>1694514557312</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694514557312</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +173,7 @@
     <MESSAGE value="단어 삭제기능 추가" />
     <MESSAGE value="단어 검색기능 추가" />
     <MESSAGE value="수준별 단어 보기기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="수준별 단어 보기기능 추가" />
+    <MESSAGE value="파일에 저장 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일에 저장 기능 추가" />
   </component>
 </project>

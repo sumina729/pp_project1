@@ -1,8 +1,6 @@
 package org.example;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -239,10 +237,18 @@ public class WordCRUD implements ICRUD{
 
 
 
-
-
     public void leadWord(){
+        try (BufferedReader reader = new BufferedReader(new FileReader("wordList.txt"))) {
+            String line;
 
+            while ((line = reader.readLine()) != null) {
+                wordList.add(Word.fromString(line));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(wordList.size() + "개의 단어를 읽어 왓습니다!\n");
     }
 
 
