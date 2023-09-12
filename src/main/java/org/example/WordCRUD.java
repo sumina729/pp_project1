@@ -182,5 +182,20 @@ public class WordCRUD implements ICRUD{
         ArrayList<Integer> idList = listWord(keyWord);
     }
 
+    public void gradeWord(){
+
+        System.out.print("난이도(1,2,3) 검색 : ");
+        int num = sc.nextInt();
+
+        System.out.println("\n--------------------------------");
+        for(int i=0; i< wordList.size(); i++){
+
+            int wordGrade = wordList.get(i).getGrade();
+            if(wordGrade != num) continue;
+            System.out.println( (i+1) + " " + wordList.get(i).toString());
+        }
+        System.out.println("--------------------------------");
+    }
+
 
 }

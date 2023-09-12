@@ -19,10 +19,11 @@ public class WordManager {
                     break;
 
                 case 2:
-                    wordCRUD.searchWord();
+                    wordCRUD.gradeWord();
                     break;
 
                 case 3:
+                    wordCRUD.searchWord();
                     break;
 
                 case 4:
