@@ -63,4 +63,10 @@ public class Word {
         return s;
 
     }
+
+    public String saveString() {
+
+        return grade + "|" + name + "|" + meaning;
+
+    }
 }

@@ -39,6 +39,7 @@ public class WordManager {
                     break;
 
                 case 7:
+                    wordCRUD.saveWord();
                     break;
 
                 default :

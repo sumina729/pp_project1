@@ -1,10 +1,35 @@
 package org.example;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordCRUD implements ICRUD{
 
+    /*
+        ArrayList<Word> wordList = new ArrayList<>();
+
+        Word 클래스 내부 데이터 형태
+        private int grade;
+        private  String name;
+        private  String meaning;
+
+        wordList에 있는 정보를 wordList.txt 파일에 저장 하려고 하는데.
+
+        public void saveWord(){
+
+        }
+
+        데이터 저장 포맷 : grade|name|meaning
+        이렇게 저장 되도록
+
+        위의 함수 안에 코드를 구현해줘
+
+
+
+     */
     ArrayList<Word> wordList = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
 
@@ -195,6 +220,29 @@ public class WordCRUD implements ICRUD{
             System.out.println( (i+1) + " " + wordList.get(i).toString());
         }
         System.out.println("--------------------------------");
+    }
+
+    public void saveWord() {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("wordList.txt"))) {
+            for (Word word : wordList) {
+                writer.println(word.saveString());
+
+            }
+            writer.close();
+            System.out.println("파일 저장 성공");
+        } catch (IOException e) {
+            e.printStackTrace();
+
+        }
+    }
+
+
+
+
+
+
+    public void leadWord(){
+
     }
 
 
